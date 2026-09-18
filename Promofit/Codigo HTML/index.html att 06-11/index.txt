@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PromoFit</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="infinito"></div>
+      <img class="logo" src="../fotos/PF.png" alt="" width="150" />
+      <form class="search-container">
+        <input
+          type="text"
+          id="search-bar"
+          placeholder="Encontre seus suplementos aqui"
+        />
+        <a href="#"
+          ><img
+            class="search-icon"
+            src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"
+        /></a>
+      </form>
+      <div class="wrap">
+        <a href="login.html"><button class="button">Login</button></a>
+      </div>
+      <div class="sup">
+        <a href="suporte.html">Suporte</a>
+      </div>
+      <div class="icon-cart" style="float: left">
+        <a href="fav.html">
+          <div class="cart-line-1" style="background-color: #e5e9ea"></div>
+          <div class="cart-line-2" style="background-color: #e5e9ea"></div>
+          <div class="cart-line-3" style="background-color: #e5e9ea"></div>
+          <div class="cart-wheel" style="background-color: #e5e9ea"></div>
+        </a>
+      </div>
+    </div>
+    <main>
+      <div class="menuH">
+        <nav class="btn-0">
+          <ul>
+            <li><a class="btn" href="#">Whey Protein</a></li>
+            <li><a class="btn" href="#">Termocgênicos</a></li>
+            <li><a class="btn" href="#">Creatina</a></li>
+            <li><a class="btn" href="#">Aminoácidos</a></li>
+            <li><a class="btn" href="#">Vitaminas</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="slider">
+          <div class="box1 box">
+            <div class="bg"></div>
+            <div class="details">
+              <h1>WheyProtein</h1>
+              <p>
+                A proteína do soro do leite é comumente comercializada como um
+                suplemento de proteína, o chamado “whey protein”. Quando o
+                assunto é crescimento muscular, a proteína do leite se mostra um
+                pouco mais eficiente que outros tipos de proteína, como caseína
+                ou soja.
+              </p>
+              <button class="but">Check Now</button>
+            </div>
+
+            <div class="illustration">
+              <img src="imagens/wheyprotein.png" alt="">
+              
+          </div>
+          </div>
+
+          <div class="box2 box">
+            <div class="bg"></div>
+            <div class="details">
+              <h1>Creatina</h1>
+              <p>
+                A creatina serve como fonte de produção de energia para as
+                células musculares, de modo que melhora a força e o tônus
+                muscular. Por isso, quem faz atividades físicas frequentes
+                costuma suplementar essa substância. Além disso, ela pode trazer
+                mais qualidade de vida para grupos específicos, como os idosos.
+              </p>
+              <button class="but">Check Now</button>
+            </div>
+
+            <div class="illustration">
+              <img src="imagens/creatina.png" alt="">
+            </div>
+          </div>
+
+          <div class="box3 box">
+            <div class="bg"></div>
+            <div class="details">
+              <h1>BCAA</h1>
+              <p>
+                O BCAA, aminoácidos de cadeia ramificada, é essencial para o
+                crescimento, desenvolvimento e manutenção muscular. O consumo
+                deste suplemento auxilia na recuperação de lesões musculares,
+                evita que o corpo entre em estado catabólico durante o treino e
+                reduz a fadiga.
+              </p>
+              <button class="but">Check Now</button>
+            </div>
+
+            <div class="illustration">
+              <img src="imagens/bcaa.png" alt="">
+             </div>
+          </div>
+
+          <div class="box4 box">
+            <div class="bg"></div>
+            <div class="details">
+              <h1>Termogenico</h1>
+              <p>
+                O termogênico é um suplemento ideal para quem busca queimar a
+                gordura corporal. Ele pode ser um auxiliador de uma dieta
+                balanceada ou ajudar em uma atividade física de alta
+                intensidade, já que atua acelerando o metabolismo,
+                proporcionando mais energia e, consequentemente, colaborando no
+                emagrecimento
+              </p>
+              <button class="but">Check Now</button>
+            </div>
+
+            <div class="illustration">
+              <img src="imagens/termogenico.png" alt="">
+            </div>
+          </div>
+
+          <div class="box5 box">
+            <div class="bg"></div>
+            <div class="details">
+              <h1>Melatonina</h1>
+              <p>
+                A melatonina é uma hormona produzida por diversos animais e
+                plantas. Em animais, é produzida e liberada pela glândula
+                pineal. Quimicamente, é uma indolamina sintetizada a partir do
+                triptofano e, devido ao seu caráter anfifílico, pode atravessar
+                facilmente as membranas celulares por difusão.
+              </p>
+              <button class="but">Check Now</button>
+            </div>
+
+            <div class="illustration">
+              <img src="imagens/melatonina.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="prev"
+          width="56.898"
+          height="91"
+          viewBox="0 0 56.898 91"
+        >
+          <path
+            d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z"
+            transform="translate(0 91) rotate(-90)"
+            fill="#fff"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="next"
+          width="56.898"
+          height="91"
+          viewBox="0 0 56.898 91"
+        >
+          <path
+            d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z"
+            transform="translate(56.898) rotate(90)"
+            fill="#fff"
+          />
+        </svg>
+        <div class="trail">
+          <div class="box1 active">1</div>
+          <div class="box2">2</div>
+          <div class="box3">3</div>
+          <div class="box4">4</div>
+          <div class="box5">5</div>
+        </div>
+      </div>
+      <div class="slogan">
+        <h2>Os melhores preços de suplementos você encontra aqui !</h2>
+      </div>
+      <div class="container-banner">
+        <div class="banner">
+          <div class="banner1">
+            <h2>Growth</h2>
+            <div class="img-banner1">
+              <img src="imagens/growth.png" alt="" />
+            </div>
+           
+            <button style="margin-top: 4rem;" class="btn-banner" type="button" >Ver site</button>
+          </div>
+          <div class="banner2">
+            <h2>Integral Medical</h2>
+            <div class="img-banner2">
+              <img src="imagens/integralmedical.png" alt="" />
+            </div>
+           
+            <button style="margin-top: 4rem;" class="btn-banner" type="button" >Ver site</button>
+          </div>
+          <div class="banner3">
+            <h2>Soldier</h2>
+            <div class="img-banner3">
+              <img src="imagens/soldier.png" alt="" />
+            </div>
+            
+            <button style="margin-top: 4rem;" class="btn-banner" type="button" >Ver site</button>
+          </div>
+          <div class="banner4">
+            <h2>Max Titanium</h2>
+             <div class="img-banner4">
+              <img src="imagens/maxTitanium.png" alt="" />
+            </div>
+            
+            <button style="margin-top: 4rem;" class="btn-banner" type="button" >Ver site</button>
+          </div>
+          <div class="banner5">
+            <h2>DUX</h2>
+             <div class="img-banner5">
+              <img src="imagens/dux.png" alt="" />
+            </div>   
+            <button style="margin-top: 4rem;" class="btn-banner" type="button" >Ver site</button>
+          </div>
+      </div>
+      <div class="propaganda">
+        <img src="imagens/propaganda.jpg" alt="" width="600px">
+        <h1>A suplementação alimentar desempenha um papel crucial na manutenção da saúde e no bem-estar das pessoas em todo o mundo. Em um cenário onde a qualidade nutricional dos alimentos pode ser variável e a rotina agitada muitas vezes dificulta o acesso a uma dieta equilibrada, os suplementos desempenham um papel fundamental na garantia da ingestão adequada de nutrientes essenciais.
+
+          Um dos maiores benefícios da suplementação alimentar é a capacidade de preencher lacunas nutricionais. Nem sempre é fácil obter todos os nutrientes necessários apenas a partir da alimentação diária. Suplementos vitamínicos e minerais, por exemplo, fornecem uma maneira conveniente de garantir que o corpo receba as vitaminas e minerais essenciais de que precisa para funcionar adequadamente. Isso é particularmente importante em casos de dietas restritivas, restrições alimentares devido a alergias, ou em situações de demanda aumentada de nutrientes, como durante a gravidez, amamentação ou atividades físicas intensas.
+          
+          Além disso, a suplementação alimentar desempenha um papel crucial na prevenção e tratamento de deficiências nutricionais. Muitas pessoas em todo o mundo sofrem com carências de nutrientes importantes, como a vitamina D, vitamina B12, ferro e cálcio. A suplementação pode ser uma solução eficaz para combater essas deficiências e melhorar a qualidade de vida.</h1>
+      </div>
+    </main>
+  </body>
+  <style>
+    .btn-0 {
+      padding: 0px;
+      margin: 0px;
+      background-color: transparent;
+      list-style: none;
+    }
+    .btn {
+      text-decoration: none;
+      font-family: sans-serif;
+      font-size: 15px;
+      border: 3px solid transparent;
+      padding: 40px 80px;
+      position: relative;
+      transition: all 1s;
+      overflow: hidden;
+      z-index: 1;
+    }
+    .btn:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      background-color: #333333;
+      z-index: -1;
+      transform: translateY(100%);
+      transition: all 1s;
+    }
+    .btn:hover:before {
+      transform: translateX(0);
+    }
+    .btn:hover {
+      color: white;
+    }
+
+    .btn-0 ul li {
+      display: inline;
+    }
+
+    .btn-0 ul li a {
+      padding: 10px 95px;
+      display: inline-block;
+      background-color: transparent;
+      color: white;
+      text-decoration: none;
+    }
+
+    .menuH {
+      height: 20%;
+      border: 1px solid black;
+      background-color: #005e94;
+      border-top-style: inset;
+    }
+
+    .slogan h2 {
+      position: relative;
+      top: 40px;
+      color: white;
+      text-align: center;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-size: 3rem;
+    }
+
+    html {
+      box-sizing: border-box;
+      font-family: "Roboto", sans-serif;
+      font-size: 65.5%;
+    }
+    @media only screen and (max-width: 800px) {
+      html {
+        font-size: 57%;
+      }
+    }
+
+    @media only screen and (max-width: 1000px) {
+      body {
+        padding: 0;
+      }
+    }
+    .container {
+      position: relative;
+      overflow: hidden;
+      border-radius: 0rem;
+    }
+    @media only screen and (max-width: 1000px) {
+      .container {
+        border-radius: 0;
+      }
+    }
+    .slider {
+      display: flex;
+      width: 500%;
+      height: 55rem;
+      transition: all 0.25s ease-in;
+      transform: translateX(0);
+    }
+    @media only screen and (max-width: 1000px) {
+      .slider {
+        height: 100vh;
+      }
+    }
+    .slider .box {
+      height: 100%;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      overflow: hidden;
+      position: relative;
+    }
+    @media only screen and (max-width: 650px) {
+      .slider .box {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+      }
+    }
+    .slider .box .bg {
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.2);
+      width: 55%;
+      transform: skewX(7deg);
+      position: absolute;
+      height: 100%;
+      left: -10%;
+      padding-left: 20rem;
+      transform-origin: 0 100%;
+    }
+    @media only screen and (max-width: 800px) {
+      .slider .box .bg {
+        width: 65%;
+      }
+    }
+    @media only screen and (max-width: 650px) {
+      .slider .box .bg {
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        height: 54%;
+        transform: skewX(0deg);
+      }
+    }
+    .slider .box .bg::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: inherit;
+      pointer-events: none;
+      transform: skewX(10deg);
+    }
+    @media only screen and (max-width: 650px) {
+      .slider .box .bg::before {
+        width: 120%;
+        bottom: 0;
+        transform: skewX(0deg);
+      }
+    }
+    .slider .box .details {
+      padding: 5rem;
+      padding-left: 10rem;
+      z-index: 100;
+      grid-column: 1 / span 1;
+      grid-row: -1;
+    }
+    @media only screen and (max-width: 650px) {
+      .slider .box .details {
+        grid-row: 2 / span 1;
+        grid-column: -1;
+        text-align: center;
+        padding: 2rem;
+        transform: translateY(-9rem);
+      }
+    }
+    .slider .box .details h1 {
+      font-size: 3.5rem;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+      color: white;
+    }
+    .slider .box .details p {
+      display: inline-block;
+      font-size: 1.68rem;
+      color: #b5b4b4;
+      margin-bottom: 2rem;
+      margin-right: 5rem;
+    }
+    @media only screen and (max-width: 800px) {
+      .slider .box .details p {
+        margin-right: 0;
+      }
+    }
+    .slider .box .details .but {
+      padding: 1rem 3rem;
+      color: #fff;
+      border-radius: 2rem;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .slider .box .details .but:hover {
+      opacity: 0.8;
+    }
+    .slider .box .details .but:focus {
+      outline: none;
+      border: none;
+    }
+    .slider .box1 {
+      background-color: #500033;
+    }
+    .slider .box1 .illustration .inner {
+      position: absolute;
+      background-color: #f07;
+      opacity: 0.5;
+    }
+    .slider .box1 .illustration .inner::after,
+    .slider .box1 .illustration .inner::before {
+      background-color: rgba(255, 0, 119, 0.4);
+    }
+    .slider .box1 .but {
+      background-color: #f07;
+    }
+    .slider .box2 {
+      background-color: #000050;
+    }
+    .slider .box2 .illustration .inner {
+      background-color: #03f;
+    }
+    .slider .box2 .illustration .inner::after,
+    .slider .box2 .illustration .inner::before {
+      background-color: rgba(0, 51, 255, 0.4);
+    }
+    .slider .box2 .but {
+      background-color: #03f;
+    }
+    .slider .box3 {
+      background-color: #00501d;
+    }
+    .slider .box3 .illustration .inner {
+      background-color: #0f4;
+    }
+    .slider .box3 .illustration .inner::after,
+    .slider .box3 .illustration .inner::before {
+      background-color: rgba(0, 255, 68, 0.4);
+    }
+    .slider .box3 .but {
+      background-color: #0f4;
+    }
+    .slider .box4 {
+      background-color: #554d00;
+    }
+    .slider .box4 .illustration .inner {
+      background-color: #ff4e00;
+    }
+    .slider .box4 .illustration .inner::after,
+    .slider .box4 .illustration .inner::before {
+      background-color: rgba(255, 78, 0, 0.4);
+    }
+    .slider .box4 .but {
+      background-color: #ff4e00;
+    }
+    .slider .box5 {
+      background-color: #300050;
+    }
+    .slider .box5 .illustration .inner {
+      background-color: #8000ff;
+    }
+    .slider .box5 .illustration .inner::after,
+    .slider .box5 .illustration .inner::before {
+      background-color: rgba(128, 0, 255, 0.4);
+    }
+    .slider .box5 .but {
+      background-color: #8000ff;
+    }
+    .slider .illustration {
+      grid-column: -2;
+      grid-row: -1;
+      justify-self: center;
+    }
+    @media only screen and (max-width: 650px) {
+      .slider .illustration {
+        grid-row: 1 / span 1;
+        grid-column: -1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .slider .illustration div {
+      height: 25rem;
+      width: 18rem;
+      border-radius: 3rem;
+      background-color: #f07;
+      position: relative;
+      transform: skewX(-10deg);
+    }
+    @media only screen and (max-width: 800px) {
+      .slider .illustration div {
+        height: 20rem;
+        width: 15rem;
+      }
+    }
+    .slider .illustration div::after,
+    .slider .illustration div::before {
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      border-radius: 3rem;
+      top: 0;
+      left: 0;
+    }
+    .slider .illustration div::after {
+      transform: translate(4rem, -1rem);
+    }
+    .slider .illustration div::before {
+      transform: translate(2rem, -2rem);
+    }
+    .prev,
+    .next,
+    .trail {
+      z-index: 10000;
+      position: absolute;
+    }
+    .prev,
+    .next {
+      width: 4rem;
+      cursor: pointer;
+      opacity: 0.2;
+      transition: all 0.3s ease;
+    }
+    @media only screen and (max-width: 650px) {
+      .prev,
+      .next {
+        display: none;
+      }
+    }
+    .prev:hover,
+    .next:hover {
+      opacity: 1;
+    }
+    .prev {
+      top: 50%;
+      left: 2%;
+      transform: translateY(-50%);
+    }
+    .next {
+      top: 50%;
+      right: 2%;
+      transform: translateY(-50%);
+    }
+    .trail {
+      bottom: 5%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60%;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+      color: #fff;
+    }
+    @media only screen and (max-width: 650px) {
+      .trail {
+        width: 90%;
+        bottom: 13%;
+      }
+    }
+    .trail div {
+      padding: 2rem;
+      border-top: 3px solid #fff;
+      cursor: pointer;
+      opacity: 0.3;
+      transition: all 0.3s ease;
+    }
+    .trail div:hover {
+      opacity: 0.6;
+    }
+    @media only screen and (max-width: 650px) {
+      .trail div {
+        padding: 1rem;
+      }
+    }
+    .active {
+      opacity: 1 !important;
+    }
+
+    .container-banner {
+      width: 100%;
+      height: 23rem;
+      margin: auto;
+      padding-top: 10rem; 
+    }
+
+    .banner {
+      width: 90%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      margin: auto;
+    }
+    .container-banner .banner1 {
+      background-color: #0079bf;
+      width: 15%;
+      border-radius: 4px;
+      box-shadow: 10px 10px;
+    }
+    .container-banner .banner1 img {
+      width: 55%;
+      height: 55%;
+    }
+    .container-banner .banner1 h3 {
+      font-size: 2.8rem;
+    }
+     .btn-banner {
+      background-color: transparent;
+      border-radius: 10px;
+      color: black;
+      width: 120px;
+      font-size: 1.6rem;
+      border-style: none;
+    }
+    .container-banner .banner2 {
+      background-color: #0079bf;
+      width: 15%;
+      border-radius: 4px;
+      box-shadow: 10px 10px;
+    }
+    .container-banner .banner2 img {
+      width: 55%;
+      height: 55%;
+    }
+    .container-banner .banner2 h3 {
+      font-size: 2.8rem;
+    }
+    .banner2 .btn-banner {
+      background-color: transparent;
+      border-radius: 10px;
+      color: black;
+      width: 120px;
+      font-size: 1.6rem;
+      border-style: none;
+    }
+    .container-banner .banner3 {
+      background-color: #0079bf;
+      width: 15%;
+      border-radius: 4px;
+      box-shadow: 10px 10px;
+    }
+    .container-banner .banner3 img {
+      width: 55%;
+      height: 55%;
+    }
+    .container-banner .banner3 h3 {
+      font-size: 2.8rem;
+    }
+    .banner3 .btn-banner {
+      background-color: transparent;
+      border-radius: 10px;
+      color: black;
+      width: 120px;
+      font-size: 1.6rem;
+      border-style: none;
+    }
+    .container-banner .banner4 {
+      background-color: #0079bf;
+      width: 15%;
+      border-radius: 4px;
+      box-shadow: 10px 10px;
+    }
+    .container-banner .banner4 img {
+      width: 55%;
+      height: 55%;
+    }
+    .container-banner .banner4 h3 {
+      font-size: 2.8rem;
+    }
+    .banner4 .btn-banner {
+      background-color: transparent;
+      border-radius: 10px;
+      color: black;
+      width: 120px;
+      font-size: 1.6rem;
+      border-style: none;
+    }
+    .container-banner .banner5 {
+      background-color: #0079bf;
+      width: 15%;
+      border-radius: 4px;
+      box-shadow: 10px 10px;
+    }
+    .container-banner .banner5 img {
+      width: 55%;
+      height: 55%;
+    }
+    .container-banner .banner5 h3 {
+      font-size: 2.8rem;
+    }
+    .banner5 .btn-banner {
+      background-color: transparent;
+      border-radius: 10px;
+      color: black;
+      width: 120px;
+      font-size: 1.6rem;
+      border-style: none;
+    }
+    .container-banner .banner6 {
+      background-color: #0079bf;
+      width: 15%;
+      border-radius: 4px;
+      box-shadow: 10px 10px;
+    }
+    .container-banner .banner6 img {
+      width: 55%;
+      height: 55%;
+    }
+    .container-banner .banner6 h3 {
+      font-size: 2.8rem;
+    }
+    .banner6 .btn-banner {
+      background-color: transparent;
+      border-radius: 10px;
+      color: black;
+      width: 120px;
+      font-size: 1.6rem;
+      border-style: none;
+    }
+    .btn-banner:hover{
+      cursor: pointer;
+      border: solid 2px black;
+      box-shadow: 3px 3px black;
+      background-color: #00A651;
+    }
+  </style>
+
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js"></script>
+  <script src="script.js"></script>
+</html>
